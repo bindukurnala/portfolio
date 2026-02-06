@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
+import profileImg from '../../assets/profile.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -25,12 +26,8 @@ const Hero = () => {
                 </div>
                 <div className="hero-image-wrapper">
                     <div className="hero-image-container">
-                        {/* 
-              TODO: Replace the src with the actual image path. 
-              Place 'profile.jpg' in the public/ folder.
-            */}
                         <img
-                            src="https://placehold.co/400x400/06b6d4/ffffff?text=Bindu"
+                            src={profileImg}
                             alt="Bindu Kurnala"
                             className="hero-image"
                         />
